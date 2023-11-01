@@ -1,0 +1,96 @@
+$background-primary-color: red;
+$background-secondary-color: blue;
+$background-terciary-color: green;
+$text-primary-color: turquoise;
+$text-secondary-color: orange;
+$text-terciary-color: purple;
+
+@mixin container{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.container-1 {
+    @include container;
+
+    @for $i from 4 through 1 {
+        .darken-#{$i}{
+            background-color: darken($background-primary-color, (8% * $i));
+            color: $text-primary-color;
+        }
+    }
+
+    @for $i from 1 through 4 {
+        .lighten-#{$i}{
+            background-color: lighten($background-primary-color, (8% * $i));
+            color: $text-primary-color;
+        }
+    }
+
+    .base-color {
+        background-color: $background-primary-color;
+        color: $text-primary-color;
+    }
+ }
+
+.container-2 {
+    @include container;
+
+    @for $i from 4 through 1 {
+        .darken-#{$i}{
+            background-color: darken($background-secondary-color, (8% * $i));
+            color: $text-secondary-color;
+        }
+    }
+
+    @for $i from 1 through 4 {
+        .lighten-#{$i}{
+            background-color: lighten($background-secondary-color, (8% * $i));
+            color: $text-secondary-color;
+        }
+    }
+
+    .base-color {
+        background-color: $background-secondary-color;
+        color: $text-secondary-color;
+    }
+ }
+
+ .container-3 {
+    @include container;
+
+    @for $i from 4 through 1 {
+        .darken-#{$i}{
+            background-color: darken($background-terciary-color, (8% * $i));
+            color: $text-terciary-color;
+        }
+    }
+
+    @for $i from 1 through 4 {
+        .lighten-#{$i}{
+            background-color: lighten($background-terciary-color, (8% * $i));
+            color: $text-terciary-color;
+        }
+    }
+
+    .base-color {
+        background-color: $background-terciary-color;
+        color: $text-terciary-color;
+    }
+ }
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    height:100px;
+    width: 100px;
+    padding: 8px;
+}
+
+
+
+

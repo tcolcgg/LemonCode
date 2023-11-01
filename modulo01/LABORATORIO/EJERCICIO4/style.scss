@@ -1,0 +1,66 @@
+body{
+    box-sizing: border-box;
+}
+
+.card{
+    font-family: "arial";
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5,auto);
+    box-shadow: 0px 0px 10px 1px black;
+    border-radius: 10px;
+    width: 400px;
+
+    grid-template-areas: 
+       "header" 
+       "title"
+       "parrafo"
+       "date"
+        "enlace";
+    
+    .header{
+        grid-area: header;
+    }
+
+    .parrafo{
+        grid-area: parrafo;
+        margin: 10px;
+    }
+    
+    .title{
+        grid-area: title;
+        margin: 10px;
+    }
+         
+    .date{
+        text-align: right;
+        grid-area: date;
+        margin: 10px;
+        span{
+            color: rgb(13, 9, 247);
+        }
+    }    
+    
+    .enlace{
+        grid-area: enlace;
+        background-color:rgba(24, 102, 247, 0.699);
+        padding: 15px;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        margin: 10px;
+        }
+}
+   
+  
+
+
+
+
+
+
+
+
+
+

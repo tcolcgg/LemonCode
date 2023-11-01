@@ -1,0 +1,138 @@
+.container-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+.container-1 .darken-4 {
+  background-color: #5c0000;
+  color: turquoise;
+}
+.container-1 .darken-3 {
+  background-color: #850000;
+  color: turquoise;
+}
+.container-1 .darken-2 {
+  background-color: #ad0000;
+  color: turquoise;
+}
+.container-1 .darken-1 {
+  background-color: #d60000;
+  color: turquoise;
+}
+.container-1 .lighten-1 {
+  background-color: #ff2929;
+  color: turquoise;
+}
+.container-1 .lighten-2 {
+  background-color: #ff5252;
+  color: turquoise;
+}
+.container-1 .lighten-3 {
+  background-color: #ff7a7a;
+  color: turquoise;
+}
+.container-1 .lighten-4 {
+  background-color: #ffa3a3;
+  color: turquoise;
+}
+.container-1 .base-color {
+  background-color: red;
+  color: turquoise;
+}
+
+.container-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+.container-2 .darken-4 {
+  background-color: #00005c;
+  color: orange;
+}
+.container-2 .darken-3 {
+  background-color: #000085;
+  color: orange;
+}
+.container-2 .darken-2 {
+  background-color: #0000ad;
+  color: orange;
+}
+.container-2 .darken-1 {
+  background-color: #0000d6;
+  color: orange;
+}
+.container-2 .lighten-1 {
+  background-color: #2929ff;
+  color: orange;
+}
+.container-2 .lighten-2 {
+  background-color: #5252ff;
+  color: orange;
+}
+.container-2 .lighten-3 {
+  background-color: #7a7aff;
+  color: orange;
+}
+.container-2 .lighten-4 {
+  background-color: #a3a3ff;
+  color: orange;
+}
+.container-2 .base-color {
+  background-color: blue;
+  color: orange;
+}
+
+.container-3 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+.container-3 .darken-4 {
+  background-color: black;
+  color: purple;
+}
+.container-3 .darken-3 {
+  background-color: #000600;
+  color: purple;
+}
+.container-3 .darken-2 {
+  background-color: #002e00;
+  color: purple;
+}
+.container-3 .darken-1 {
+  background-color: #005700;
+  color: purple;
+}
+.container-3 .lighten-1 {
+  background-color: #00a900;
+  color: purple;
+}
+.container-3 .lighten-2 {
+  background-color: #00d200;
+  color: purple;
+}
+.container-3 .lighten-3 {
+  background-color: #00fa00;
+  color: purple;
+}
+.container-3 .lighten-4 {
+  background-color: #24ff24;
+  color: purple;
+}
+.container-3 .base-color {
+  background-color: green;
+  color: purple;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  height: 100px;
+  width: 100px;
+  padding: 8px;
+}/*# sourceMappingURL=style.css.map */

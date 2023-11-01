@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  display: flex;
+  height: 100px;
+  width: 100px;
+  padding: 15px;
+  border: 2px solid black;
+  margin: 2px;
+  background-color: blue;
+  border-radius: 8px;
+  font-family: "Arial";
+  font-weight: bold;
+  color: black;
+  justify-content: center;
+  align-items: center;
+}
+
+.shadow {
+  box-shadow: 10px 20px 10px 0 rgba(0, 0, 0, 0.69);
+  background-color: white;
+}
+
+p {
+  font-family: "Arial";
+}
+p.secondary {
+  font-family: "Verdana";
+}
+
+.box:nth-child(2) {
+  background-color: #000099;
+}
+
+.box:nth-child(3) {
+  background-color: #6666ff;
+}/*# sourceMappingURL=styles.css.map */
